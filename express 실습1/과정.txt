@@ -1,0 +1,18 @@
+npm install express
+
+expresstest.js 생성
+
+
+req, app.get listen 작성후 (메인 부분의 template)
+
+
+npm install body-parser -save 를 터미널에 입력해 바디파서 설치후
+
+똑같이 require 하고 
+app.use(bodyParser.urlencoded({extended : false})); 작성
+app.use(bodyParser.json()); 작성
+
+
+
+
+
